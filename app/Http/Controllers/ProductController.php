@@ -40,6 +40,7 @@ class ProductController extends Controller
             'price' => 'required|decimal:0,2',
             'quantity' => 'required|integer',
             'description' => 'nullable|string|max:255',
+            'categories.*' => 'in:1,2,3,4,5'
         ]);
 
         $product = Product::create($validated);
