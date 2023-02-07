@@ -25,8 +25,8 @@
     <input type="checkbox" id="category4" name="categories[]" value="4">
     <label for="category4">Books</label>
     <br>
-    <input type="checkbox" id="category4" name="categories[]" value="4">
-    <label for="category4">Pets</label>
+    <input type="checkbox" id="category5" name="categories[]" value="5">
+    <label for="category5">Pets</label>
     <br>
     <input type="submit" value="Submit">
 </form>
